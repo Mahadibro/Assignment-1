@@ -38,3 +38,47 @@ nav ul li a{
     font-size: 20px;
     color: #0D1321;
 }
+/* Banner-style */
+.banner{
+    max-width: 998px;
+    justify-content: center;
+    margin: 26px 221px 45px 221px;
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+   
+}
+.h1{
+    color: #0D1321;
+    font: size 68px;
+    font-weight: bolder;
+}
+.banner-description{
+    font-size: 26px;
+    font-weight: normal;
+    color: #0D1321;
+}
+.banner-profile-pic{
+    width: 240px;
+    height: 240px;
+    display: flex;
+}
+.banner-pp{
+    justify-content: center;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+}
+.button-st{
+    justify-content: center;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #0D1321;
+}
