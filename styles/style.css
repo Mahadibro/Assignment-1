@@ -6,6 +6,11 @@
   font-weight: 800;
   font-style: normal;
 }
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* shared style */
 .text-primary{
     color: rgba(13, 19, 33, 1);
@@ -40,7 +45,7 @@ nav ul li a{
 }
 /* Banner-style */
 .banner{
-    max-width: 998px;
+    max-width: 1640px;
     justify-content: center;
     margin: 26px 221px 45px 221px;
     background-image: url('../assets/Hero-bg.png');
@@ -81,4 +86,73 @@ nav ul li a{
     font-weight: 600;
     color: #FFFFFF;
     background-color: #0D1321;
+    border-radius: 8px;
+    padding: 21px 24px;
 }
+/* shared class */
+/* .secondary-bg{
+    background-color: #0D1321;
+} */
+.section title{
+    font-size: 32px;
+    font-weight:bolder;
+    color: #0D1321;
+}
+.section-description{
+    font-size: 16px;
+    color: #0D1321;
+
+}
+/* why styles */
+.why{
+    border-radius: 16px;
+    padding: 80px 144px;
+    text-align: center;
+    margin-top: 154px;
+}
+.item-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.right-corner{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.right-corner1{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+    .left-corner{
+        position: absolute;
+        top: 5;
+        left: 0;
+
+    }
+
+    .why-item {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 32px;
+    }
+    .btn{
+        padding:10px;
+        margin: 0px;
+        width: 140px;
+    }
+    .inspiration{
+        text-align: center;
+    }
+    .section-title{
+        font-size: 32px;
+        font-weight: bolder;
+        color: #0D1321;
+    }
+ .des{
+    font-size: 16;
+    font-weight: normal;
+    color: #0D1321;
+ }
