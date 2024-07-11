@@ -181,3 +181,36 @@ main section{
     font-size: 16px;
     font-weight: bold;
    }
+   .bg{ 
+    background-image: url(../assets/handshake.jpg);
+   height: 600px;
+   width: 1140;
+   border-radius: 16px;
+   margin: 150px;
+   justify-content: center;
+   } 
+.section-title1{
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding: 54px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.two{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.feedback {
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+    display: inline;
+    width: 50%;
+}
