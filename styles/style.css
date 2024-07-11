@@ -78,7 +78,7 @@
   .button-st{
       justify-content: center;
       margin: auto;
-      max-width: 100%;
+      max-width: 10%;
       height: auto;
       align-items: center;
       display: flex;
@@ -93,6 +93,9 @@
   /* .secondary-bg{
       background-color: #0D1321;
   } */
+   .text-center{
+    text-align: center;
+   }
   .section title{
       font-size: 32px;
       font-weight:bolder;
@@ -104,6 +107,10 @@
   
   }
   /* why styles */
+main section{
+    margin-top: 154px;
+    margin-bottom: 154px;
+}
   .why{
       border-radius: 16px;
       padding: 80px 144px;
@@ -158,4 +165,19 @@
    }
    .two-container{
      margin-right: 300px;
+   }
+   /* skills section style */
+   .skills-container{
+    display: flex;
+    gap: 240px;
+   }
+   .skill{
+    padding: 16px;
+    box-shadow: 0px 4px 4px 0px #000000;
+    border-radius: 16px;
+   }
+   .ntg{
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
    }
